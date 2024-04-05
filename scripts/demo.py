@@ -1,6 +1,8 @@
 import torch
 import numpy as np
 from PIL import Image
+import sys
+sys.path.append('.')
 
 from unidepth.utils import colorize, image_grid
 
